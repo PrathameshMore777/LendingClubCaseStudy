@@ -28,9 +28,12 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+python 3.8.16
+numpy 1.21.6
+pandas 1.3.5
+seaborn 0.11.2
+matplotlib 3.2.2
+plotly 5.5.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
