@@ -1,5 +1,5 @@
 # Lending Club Case Study
-> Outline a brief description of your project.
+Risk Analysis for a Consumer Finance company where we want to help company to take decisions to offer loan to a particular applicant or not. Risks are identified based on the applicant's profile.
 
 
 ## Table of Contents
@@ -11,45 +11,45 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The purpose of this project is to understand the basics and different approches of EDA used frequently/widely to explore the data
+- As there is huge demand in loan there are high chances of defaulters so lending club case study project is the best way to understand EDA more briefly so we have to analyize and predict who is the potential defaulters and how to avoid them.
+- We have used below steps for this analysis:
+  - 1st Step: **Data Cleaning**
+  - 2nd Step: **Univariate Analysis**
+  - 3rd Step: **Segemented Univariate Analysis**
+  - 4th Step: **Bivaraiate Analysis**
+  - Final Step: **Conclusion** 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The Defaulted loan are lower for the borrowers which own their property compared to mortgage or rent.
+- The 60 months term has higher chance of defaulting than 36 months term whereas the 36 months term has higher chance of fully paid loan.
+- The loans in 36 months term majorty consist of grade A and B loans whereas the loans in 60 months term mostly consist of grade B, C and D loans.
+- Low grade loans have high tendency to default. Grading system is working as expected.
+- Extra verification and background check must be done for the applicants belonging to CA state, as tendency to default is high.
+- The default loan amount increases with interest rate and shows are decline after 17.5% interest rate.
+- Loans having higher interest rate have more defaulters. Check the background of applicant thoroughly if interest rate is high.
+- Risk are with the Borrowers having Public Recorded Bankruptcy.
+- The Grade represent risk factor thus we can say interest rate increases with the risk.
+- When the purpose is debt consolidation check applicant thoroughly as it has high tendency to default.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-python 3.8.16
-numpy 1.21.6
-pandas 1.3.5
-seaborn 0.11.2
-matplotlib 3.2.2
-plotly 5.5.0
+- python 3.8.16
+- numpy 1.21.6
+- pandas 1.3.5
+- seaborn 0.11.2
+- matplotlib 3.2.2
+- plotly 5.5.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+This project was inspired by UpGrad IITB Programme as a case study for the Machine Learning and Artificial Intelligence course.
 
 
 ## Contact
-Created by [@PrathameshMore777] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [PrathameshMore777] - feel free to contact me!
